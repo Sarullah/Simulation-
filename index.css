@@ -1,0 +1,690 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* 
+.roof {
+    width: 1000px;
+    height: 100px;
+    /* background-color: rgb(163, 83, 83); */
+    /* border-right: 80px solid transparent;
+    border-left: 80px solid transparent;
+    border-bottom: 200px solid red;
+    margin-top: 40px;
+    margin-left: 50px; } */
+
+
+
+
+/* .roof-left {
+    width: 1000px;
+    height: 100px;
+    /* background-color: rgb(163, 83, 83); */
+    /* border-right: 200px solid transparent;
+    border-left: 200px solid transparent;
+    border-bottom: 200px solid rgb(32, 20, 20);
+    bottom:57vh;
+    left: -200px;
+    position: absolute;
+    rotate: 100deg; */
+
+
+
+div#class {
+    background-color: rgb(228, 178, 113);
+    width: 1000px;
+    position: absolute;
+    height: 664px;
+    box-sizing: content-box;
+    border-width: 38px 57px 105px 40px;
+    border-style: solid;
+    border-color: #d3d2cfcb transparent rgb(156, 154, 150) transparent;
+    top: 50px;
+    left: 100px;
+}
+
+
+
+.wall-label {
+    width: 1000px;
+    height: 60px;
+    position: absolute;
+    left: 0vh;
+    border-top: 30px solid rgb(114,77,32) ;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+}
+
+.wall-label2 {
+    width: 700px;
+    height: 60px;
+    position: absolute;
+    left: 79vh;
+    top:41.5vh;
+    border-top: 50px solid rgb(189, 143, 84) ;
+    border-left: 27px solid transparent;
+    border-right: 40px solid transparent;
+    rotate: 90deg;
+    /* box-shadow: 0px 20px 5px 5px white; */
+}
+
+
+
+
+.wall-label3 {
+    width: 700px;
+    height: 60px;
+    position: absolute;
+    left: 86.4vh;
+    top:41.5vh;
+    border-top: 60px solid rgb(161, 117, 60) ;
+    border-left: 0px solid transparent;
+    border-right: 0px solid transparent;
+    rotate: 90deg;
+    /* box-shadow: 0px 20px 5px 5px white; */
+}
+
+
+
+
+
+
+
+.wall-label4 {
+    width: 700px;
+    height: 60px;
+    position: absolute;
+    right: 79vh;
+    top:41vh;
+    border-top: 50px solid rgb(124, 92, 50) ;
+    border-left: 25px solid transparent;
+    border-right: 32px solid transparent;
+    rotate: 270deg;
+    /* box-shadow: 0px 20px 5px 5px white; */
+}
+
+
+.wall-label5 {
+    width: 700px;
+    height: 0px;
+    position: absolute;
+    left: -47vh;
+    top:42vh;
+    border-top: 45px solid rgb(211, 145, 91) ;
+    border-left: 0px solid transparent;
+    border-right: 0px solid transparent;
+    rotate: 90deg;
+    /* box-shadow: 0px 20px 5px 5px white; */
+}
+
+
+
+.wall-label6 {
+    width: 28px;
+    height: 0px;
+    position: absolute;
+    left: -4.8vh;
+    top:-4.9vh;
+    border-top: 40px solid rgb(133, 89, 53) ;
+    border-left: 0px solid transparent;
+    border-right: 40px solid transparent;
+    rotate: -90deg;
+    /* box-shadow: 0px 20px 5px 5px white; */
+}
+
+
+.wall-label8 {
+    width: 28px;
+    height: 0px;
+    position: absolute;
+    left: -4.8vh;
+    top:-4.9vh;
+    border-top: 40px solid rgb(190, 189, 186) ;
+    border-left: 0px solid transparent;
+    border-right: 40px solid transparent;
+    rotate: 90deg;
+    /* box-shadow: 0px 20px 5px 5px white; */
+}
+
+
+
+.wall-label7 {
+    width: 48px;
+    height: 0px;
+    position: absolute;
+    right: -7vh;
+    top:-4.6vh;
+    z-index: 45;
+    border-top: 40px solid rgb(133, 89, 53) ;
+    border-left: 0px solid transparent;
+    border-right: 60px solid transparent;
+    rotate: 180deg;
+    /* box-shadow: 0px 20px 5px 5px white; */
+}
+
+
+
+.wall-label9 {
+    width: 48px;
+    height: 0px;
+    position: absolute;
+    right: -7vh;
+    top:-4.6vh;
+    z-index: 45;
+    border-top: 40px solid rgb(190, 189, 186) ;
+    border-left: 0px solid transparent;
+    border-right: 60px solid transparent;
+    rotate: 0deg;
+    /* box-shadow: 0px 20px 5px 5px white; */
+}
+
+
+
+.wall-belt {
+    width: 892px;
+    height: 12px;
+    position: absolute;
+    top: 35vh;
+    left: 7vh;
+    z-index: 30;
+    background-color: white;
+}
+
+.wall-belt2 {
+    width: 892px;
+    height: 12px;
+    position: absolute;
+    top: 37.5vh;
+    left: 7vh;
+    z-index: 30;
+    background-color: white;
+}
+
+
+.wall-belt3 {
+    width: 50px;
+    height: 12px;
+    position: absolute;
+    top: 34.4vh;
+    right: 0.6vh;
+    rotate: -10deg;
+    z-index: 35;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.wall-belt4 {
+    width: 50px;
+    height: 12px;
+    position: absolute;
+    top: 37vh;
+    right: 0.6vh;
+    rotate: -10deg;
+    z-index: 34;
+    background-color: white;
+}
+
+.wall-belt5 {
+    width: 70px;
+    height: 12px;
+    position: absolute;
+    top: 36.45vh;
+    right: -8vh;
+    /* rotate: -5deg; */
+    z-index: 34;
+    background-color: white;
+}
+
+
+.wall-belt6 {
+    width: 70px;
+    height: 12px;
+    position: absolute;
+    top: 33.9vh;
+    right: -8vh;
+    /* rotate: -5deg; */
+    z-index: 34;
+    background-color: white;
+}
+
+
+.wall-belt7 {
+    width: 55px;
+    height: 12px;
+    position: absolute;
+    top: 34.3vh;
+    left: 0.2vh;
+    rotate: 10deg;
+    /* rotate: -5deg; */
+    z-index: 34;
+    background-color: white;
+}
+
+
+.wall-belt8 {
+    width: 55px;
+    height: 12px;
+    position: absolute;
+    top: 36.8vh;
+    left: 0.2vh;
+    rotate: 10deg;
+    /* rotate: -5deg; */
+    z-index: 34;
+    background-color: white;
+}
+
+
+.wall-belt9 {
+    width: 55px;
+    height: 12px;
+    position: absolute;
+    top: 33.7vh;
+    left: -6.5vh;
+    /* rotate: 10deg; */
+    /* rotate: -5deg; */
+    z-index: 34;
+    background-color: white;
+}
+
+
+
+.wall-belt10 {
+    width: 45px;
+    height: 12px;
+    position: absolute;
+    top: 36.3vh;
+    left: -5.2vh;
+    /* rotate: 10deg; */
+    /* rotate: -5deg; */
+    z-index: 34;
+    background-color: white;
+}
+
+div #class img.center {
+    width: 310px;
+    height: 250px;
+    position: absolute;
+    left: 48vh;
+    top: 40px;
+    border: 6px solid rgb(39, 23, 8);
+    border-radius: 2px;
+    z-index: 31;
+}
+
+div #class img.left {
+    width: 120px;
+    height: 210px;
+    position: absolute;
+    left: 26vh;
+    top: 60px;
+    border: 6px solid rgb(39, 23, 8);
+    border-radius: 5px;
+}
+
+
+div #class img.right {
+    width: 120px;
+    height: 210px;
+    position: absolute;
+    right: 150px;
+    top: 60px;
+    border: 6px solid rgb(39, 23, 8);
+    border-radius: 5px;
+}
+
+
+/* div #class img.nextWall {
+    width: 464px;
+    height: 905px;
+    position: absolute;
+    right: -322px;
+    top: -115px;
+}
+  */
+
+div#table {
+    width: 1100px;
+    height: 100px;
+    position: absolute;
+    top: 501px;
+    left: 100px;
+    /* border-top: 10px solid blue ; */
+    border-bottom: 250px solid rgb(170, 147, 88) ;
+    border-left: 120px solid transparent;
+    z-index: 9;
+    border-right: 110px solid transparent;
+    box-shadow: 0px 27px 11px -17px;
+    
+}
+
+
+.label {
+    width: 1100px;
+    height: 10px;
+    border-bottom: 20px solid rgb(68, 60, 32);
+    border-left: 0px solid transparent;
+    border-right: 0px solid transparent;
+    position: absolute;
+    top: 750px;
+    left: 100px;
+    z-index: 20;
+
+}
+
+
+div#table-leg {
+    width: 1030px;
+  height: 163px;
+  position: absolute;
+  top: 678px;
+  left: 135px;
+  overflow: hidden;
+  z-index: 8;
+  border-bottom: 179px solid rgb(104, 89, 51);
+  border-left: 0px solid transparent;
+  border-right: 0px solid transparent;
+}
+
+/* div.circle {
+    width: 100px;
+    height: 20px;
+    background-color: rgb(255, 215, 34);
+    border-radius: 0px 0px 30px 30px;
+    position: absolute;
+    top: -10vh;
+    left: 30px;
+    border-top: 4px solid rgb(126, 80, 0);
+    
+}
+
+
+div.circle2 {
+    width: 100px;
+    height: 20px;
+    background-color: rgb(255, 215, 34);
+    border-radius: 0px 0px 30px 30px;
+    position: absolute;
+    top: -10vh;
+    left: 100vh;
+    border-top: 4px solid rgb(126, 80, 0);
+    
+}
+
+div.circle3 {
+    width: 100px;
+    height: 20px;
+    background-color: rgb(255, 215, 34);
+    border-radius: 0px 0px 30px 30px;
+    position: absolute;
+    top: -10vh;
+    left: 54vh;
+    border-top: 4px solid rgb(126, 80, 0);
+} */
+
+
+div.thin {
+    width: 400px;
+    height: 200px;
+    /* background-color: red; */
+    position: absolute;
+    top: 230px;
+    left: -130px;
+    /* border-top: 10px solid blue ; */
+    border-bottom: 100px solid rgb(92, 75, 18) ;
+    border-left: 70px solid transparent;
+    z-index: 9;
+    border-right: 70px solid transparent;
+    box-shadow: 0px 27px 11px -17px;
+    rotate: 90deg;
+}
+
+.chairs {
+    position: relative;
+}
+
+.chair1 {
+    width: 200px;
+    height: 150px;
+    border-top: 50px solid rgb(48, 47, 47) ;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-radius: 50px;
+    position: absolute;
+    top: 450px;
+    left: 220px; 
+}
+
+
+.chair2 {
+    width: 200px;
+    height: 150px;
+    border-top: 50px solid rgb(48, 47, 47) ;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-radius: 50px;
+    position: absolute;
+    top: 450px;
+    left: 60vh; 
+}
+
+
+
+
+.chair3 {
+    width: 200px;
+    height: 150px;
+    border-top: 50px solid rgb(48, 47, 47) ;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-radius: 50px;
+    position: absolute;
+    top: 450px;
+    left: 95vh; 
+}
+
+
+
+
+.laptop1 {
+    width: 250px;
+    position: absolute;
+    top: 65vh;
+    left: 25vh;
+    z-index: 25;
+}   
+
+
+
+.laptop2 {
+    width: 230px;
+    position: absolute;
+    top: 55vh;
+    left: 60vh;
+    z-index: 25;
+}   
+
+
+.laptop3 {
+    width: 230px;
+    position: absolute;
+    top: 55vh;
+    left: 90vh;
+    z-index: 25;
+}  
+
+.laptop4 {
+    width: 330px;
+    position: absolute;
+    top: 65vh;
+    left: 50vh;
+    z-index: 25;
+}  
+
+
+.laptop5 {
+    width: 300px;
+    position: absolute;
+    top: 70vh;
+    left: 100vh;
+    z-index: 25;
+}  
+
+
+
+.box {
+    width: 60px;
+    height: 34px;
+    background-color:rgb(128, 98, 60);
+    position: absolute;
+    top: 27vh;
+    left: 14vh;
+    border-radius: 5px;
+}
+
+
+.box1 {
+    width: 15px;
+    height: 20px;
+    background-color:rgb(128, 98, 60);
+    position: absolute;
+    top: 35vh;
+    left: 16vh;
+    z-index: 45;
+    /* border-radius: 5px; */
+}
+
+.box2 {
+    width: 15px;
+    height: 20px;
+    background-color:rgb(128, 98, 60);
+    position: absolute;
+    top: 35vh;
+    left: 18.2vh;
+    z-index: 45;
+    /* border-radius: 5px; */
+}
+
+
+
+.box3 {
+    width: 15px;
+    height: 20px;
+    background-color:rgb(128, 98, 60);
+    position: absolute;
+    top: 35vh;
+    left: 20.5vh;
+    z-index: 45;
+    /* border-radius: 5px; */
+}
+
+.box4 {
+    width: 50px;
+    height: 30px;
+    /* background-color:rgb(73, 56, 34); */
+    position: absolute;
+    top: 27.2vh;
+    border-right: 1px solid black;
+    left: 14.5vh;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.wall {
+    width: 215vh;
+    height: 90vh;
+    border-right: 300px solid transparent;
+    border-left: 300px solid transparent;
+    border-top:140px solid rgb(255, 204, 35);
+    position: absolute;
+    
+}
+
+
+.wall-left
+    width: 140vh;
+    height: 100vh;
+    border-right: 250px solid transparent;
+    border-left: 350px solid transparent;
+    border-top:400px solid rgb(79, 255, 35);
+    position: absolute;
+    rotate:270deg ;
+    left:-73vh;
+    top:-120px;
+    overflow: hidden;
+}
+
+.wall-right {
+    width: 140vh;
+    height: 100vh;
+    border-right: 345px solid transparent;
+    border-left: 246px solid transparent;
+    position: absolute;
+    rotate:90deg ;
+    left:80vh;
+    top:-19vh;
+}
+
+
+
+.wall {
+    width: 215vh;
+    height: 90vh;
+    border-right: 300px solid transparent;
+    border-left: 300px solid transparent;
+    border-top:140px solid rgb(255, 204, 35);
+    position: absolute;
+    
+}
+
+
+.wall-center {
+    width: 121.5vh;
+    height: 46.6vh;
+    background-color: black;
+} */    
+
+
